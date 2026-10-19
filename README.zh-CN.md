@@ -1,6 +1,9 @@
-# agent-rewind
-
-**给 AI 编码 Agent 装上撤销键。**
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/banner-dark.svg">
+    <img src="docs/banner.svg" alt="agent-rewind —— 给 AI 编码 Agent 装上撤销键" width="100%">
+  </picture>
+</p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/agent-rewind"><img src="https://img.shields.io/npm/v/agent-rewind.svg" alt="npm"></a>

@@ -1,6 +1,9 @@
-# agent-rewind
-
-**An undo button for AI coding agents.**
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/banner-dark.svg">
+    <img src="docs/banner.svg" alt="agent-rewind — an undo button for AI coding agents" width="100%">
+  </picture>
+</p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/agent-rewind"><img src="https://img.shields.io/npm/v/agent-rewind.svg" alt="npm"></a>
