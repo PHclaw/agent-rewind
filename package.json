@@ -1,0 +1,44 @@
+{
+  "name": "agent-rewind",
+  "version": "0.1.0",
+  "description": "An undo button for AI coding agents. Auto-snapshot every change, rewind anytime.",
+  "keywords": [
+    "ai-agent",
+    "claude-code",
+    "codex",
+    "cursor",
+    "undo",
+    "snapshot",
+    "checkpoint",
+    "rewind",
+    "rollback",
+    "developer-tools"
+  ],
+  "license": "MIT",
+  "author": "PHclaw",
+  "homepage": "https://github.com/PHclaw/agent-rewind",
+  "repository": "github:PHclaw/agent-rewind",
+  "bugs": "https://github.com/PHclaw/agent-rewind/issues",
+  "bin": {
+    "agent-rewind": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
+    "smoke": "node scripts/smoke.js",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  }
+}
